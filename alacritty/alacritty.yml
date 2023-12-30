@@ -1,0 +1,45 @@
+shell:
+  program: /usr/bin/env
+  args:
+    - fish
+
+window:
+  padding:
+    x: 2
+    y: 2
+  dynamic_padding: true
+  decorations: None
+  startup_mode: Windowed
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: JetBrainsMonoNL NFP
+    style: Medium
+  bold:
+    family: JetBrainsMonoNL NFP
+    style: Bold
+
+  italic:
+    family: JetBrainsMonoNL NFP
+    style: Bold Italic
+  size: 12.0
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+  draw_bold_text_with_bright_colors: true
+mouse:
+  hide_when_typing: true
+  save_to_clipboard: true
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+live_config_reload: true
+window_opacity: 0.2
